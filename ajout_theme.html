@@ -1,0 +1,40 @@
+<html>
+<head>
+	<LINK rel="stylesheet" HREF="miseenforme2.css" type="text/css">
+	<meta charset="UTF-8"> 
+</head>
+
+<body>
+	<form method="POST" action="ajouter_theme.php">
+
+		<h2>Ajout d'un thème</h2>
+	Ajoutez un thème de séances de code ou le réactiver lorsqu'il a été virtuellement supprimé.</br></br>
+	Les règles à respecter sont : </br>
+	<ul>
+		<li>Le nom du thème est obligatoire.</li>
+		<li>Il ne peut pas contenir de caractères spéciaux, ni seulement d'espaces.</li>
+		<li>Si un thème portant le même nom existe déjà, alors : </li>
+		<ul>
+			<li>Soit il est actif, auquel cas il n'est pas nécessaire d'en faire un doublon : un message est affiché et le doublon n'est pas créé.</li>
+			<li> Soit il a été virtuellement supprimé, dans ce cas il est réactivé et réapparaitra dans la liste des thèmes disponibles.</li>
+		</ul>
+		<li> Le descriptif du thème est optionnel. </li>
+	</ul>	
+	<div align="center">
+		<table>
+			<tr>
+				<td>Nom du thème :</td><td><input type="text" name="nom" maxlength="30" required> *</td><br>
+			</tr>
+			<tr>
+				<td>Descriptif :</td><td><textarea name="descriptif" rows="7" cols="50"> </textarea></td><br>
+			</tr>
+		</table>
+
+		<br>
+			<input type="submit" value="Valider">
+			<input type="reset" value="Annuler">
+	</div>
+	</form>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+@import url(http://fonts.googleapis.com/css?family=Cantarell:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lobster:100,300,400,700,900);
+
+
+body {
+background-color:white;
+background-image:url(cloth_alike.png);
+}
+
+a:link {
+ color: #303030;
+ font-family: 'Cantarell', sans-serif;
+ font-size:14;
+ text-decoration: none;
+ }
+
+a:visited {
+ color: #303030;
+ font-family:'Cantarell', sans-serif;
+ text-decoration: none;
+ font-size:14;
+ }
+
+a:hover {
+ color: #990000;
+ text-decoration: none;
+ font-family:'Cantarell', sans-serif;
+ font-size:14;
+}
+li {
+ font-family:'Cantarell', sans-serif;
+ font-size: 14;
+ color: #303030;
+ display : list-item;
+ list-style-image : url(emoji-E01B.png);
+} 
+h2 {
+ background:url(background.png) repeat-x scroll 0px 100% ;
+ font-size: 18;
+ font-family:'Lobster', sans-serif;; 
+ color: #F10000;
+ border-bottom: 2px solid #990000;
+ text-align:center;
+ border-width:3px;
+ border-style:groove;
+ border-color:black;
+ border-radius: 5px;
+ 
+}
+
