@@ -1,5 +1,5 @@
 <html>
-/*Ceci est un commentaire*/
+
 <head>
 	<LINK rel="stylesheet" HREF="miseenforme2.css" type="text/css">
 	<meta charset="UTF-8">
